@@ -1,29 +1,4 @@
-# Étant donné une chaîne s, renvoie la plus longue sous-chaîne palindromique dans s
-
-
-
-
-# class Solution {
-# public:
-#     string longestPalindrome(string s) {
-        
-#     }
-# };
-
-
-
-# Exemple 1:
-
-# Entrée : s = "babad"
-# Sortie : "bab"
-# Explication : "aba" est également une réponse valide.
-
-
-# Exemple 2 :
-
-# Entrée : s = "cbbd"
-# Sortie : "bb"
-
+# NE MARCHE PAS 
 
 longestPalindrome=input("sasir votre mots ")
 mots = longestPalindrome.split()
