@@ -67,9 +67,9 @@ for i in range(input_len):
 
 chromain.sort()
 total=0
-for symbol in chromain:
-    for symbole, valeur in romain_list:
-        if symbol == symbole:
+for symbole in chromain:
+    for symbole_list, valeur in romain_list:
+        if symbole == symbole_list:
             total += valeur
             break
 print("Valeur totale =", total)        
