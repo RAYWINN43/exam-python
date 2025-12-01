@@ -23,3 +23,10 @@
 
 # Entrée : s = "cbbd"
 # Sortie : "bb"
+
+
+longestPalindrome=input("sasir votre mots ")
+mots = longestPalindrome.split()
+
+if mots==mots.reverse():
+    print(mots)
